@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <title>Responsive Navbar</title>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <div class="nav-wrapper">
+      <nav class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="navbar-logo">
+          <a href="index.html">
+            <img src="images/logo-new.png" alt="GeoEurasia Logo"/>
+          </a>
+        </div>
+        <button id="lang-toggle" class="lang-btn">English</button>
+      </nav>
+
+      <ul class="nav no-search">
+        <li class="nav-item"><a href="index.html" data-en="Home" data-ka="მთავარი">Home</a></li>
+        <li class="nav-item"><a href="products.html" data-en="Products" data-ka="პროდუქტები">Products</a></li>
+        <li class="nav-item"><a href="#" data-en="About Us" data-ka="ჩვენს შესახებ">About Us</a></li>
+        <li class="nav-item"><a href="contact.html" data-en="Contact Us" data-ka="დაგვიკავშირდით">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="container-about">
+      <div class="centered-about">
+        <h1 data-en="About us" data-ka="ჩვენს შესახებ">About us</h1><br>
+        <p 
+          data-en="We specialize in providing comprehensive supply solutions for industrial enterprises, offering high-quality equipment and materials for water treatment, filtration, membrane technologies, and pumps. Our company supports clients throughout the entire process—from selection and delivery to implementation, technical support, and after-sales service—working directly with leading manufacturers and ensuring reliable logistics for complex projects. Our mission is to build long-term partnerships by delivering effective and modern solutions that help improve the efficiency of industrial operations. Let me know if you need a shorter version, extra details, or a version for another language."
+          
+          data-ka="ჩვენ სპეციალიზებული ვართ ინდუსტრიული საწარმოებისთვის სრული მიწოდების გადაწყვეტილებების მიწოდებაში, გთავაზობთ მაღალი ხარისხის აღჭურვილობას და მასალებს წყლის დამუშავების, ფილტრაციის, მემბრანული ტექნოლოგიებისა და ტუმბოებისათვის. ჩვენი კომპანია მხარს უჭერს კლიენტებს მთელ პროცესში — შერჩევიდან და მიწოდებიდან დანერგვამდე, ტექნიკური მხარდაჭერითა და გაყიდვის შემდგომი მომსახურებით. ჩვენ ვთანამშრომლობთ წამყვან მწარმოებლებთან და ვუზრუნველყოფთ საიმედო ლოჯისტიკას რთული პროექტებისთვის. ჩვენი მისიაა ხანგრძლივი პარტნიორობის ჩამოყალიბება ეფექტური და თანამედროვე გადაწყვეტილებების მიწოდებით, რომლებიც ხელს უწყობენ ინდუსტრიული ოპერაციების ეფექტურობის გაუმჯობესებას. თუ გსურთ მოკლე ვერსია, დამატებითი დეტალები ან თარგმანი სხვა ენაზე — შეგვატყობინეთ.">
+          
+          We specialize in providing comprehensive supply solutions for industrial enterprises, 
+          offering high-quality equipment and materials for water treatment, filtration, membrane technologies, 
+          and pumps. Our company supports clients throughout the entire process—from selection and delivery to implementation, 
+          technical support, and after-sales service—working directly with leading manufacturers and 
+          ensuring reliable logistics for complex projects. 
+          Our mission is to build long-term partnerships by delivering effective and modern 
+          solutions that help improve the efficiency of industrial operations.
+          Let me know if you need a shorter version, extra details, or a version for another language
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- ✅ jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- ✅ JavaScript -->
+  <script src="assets/script.js"></script>
+</body>
+</html>
