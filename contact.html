@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <title>Responsive Navbar</title>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <div class="nav-wrapper">
+      <nav class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="navbar-logo">
+          <a href="index.html">
+            <img src="images/logo-new.png" alt="GeoEurasia Logo"/>
+          </a>
+        </div>
+        <button id="lang-toggle" class="lang-btn">English</button>
+      </nav>
+
+      <ul class="nav no-search">
+        <li class="nav-item"><a href="index.html" data-en="Home" data-ka="მთავარი">Home</a></li>
+        <li class="nav-item"><a href="products.html" data-en="Products" data-ka="პროდუქტები">Products</a></li>
+        <li class="nav-item"><a href="about.html" data-en="About Us" data-ka="ჩვენს შესახებ">About Us</a></li>
+        <li class="nav-item"><a href="#" data-en="Contact Us" data-ka="დაგვიკავშირდით">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="contact-container">
+      <div class="contact-centered">
+
+        <span data-en="Company Name" data-ka="კომპანიის სახელი">Company Name</span>:
+        <span data-en="GeoEurasia" data-ka="შპს გეოევრაზია">GeoEurasia</span><br>
+
+        <span data-en="Identification Number" data-ka="საიდენტიფიკაციო ნომერი">Identification Number</span>:
+        <span data-en="405763507" data-ka="405763507">405763507</span><br>
+
+        <span data-en="Registration Authority" data-ka="რეგისტრაციის ორგანო">Registration Authority</span>:
+        <span
+          data-en="LEPL National Agency of Public Registry"
+          data-ka="სსიპ საჯარო რეესტრის ეროვნული სააგენტო">
+          LEPL National Agency of Public Registry
+        </span><br>
+
+        <span data-en="Phone" data-ka="ტელეფონი">Phone</span>:
+        <span data-en="+995 555 713 630" data-ka="+995 555 713 630">+995 555 713 630</span><br>
+
+        <span data-en="Address" data-ka="მისამართი">Address</span>:
+        <span
+          data-en="Tbilisi, Merab Aleksidze St. №12"
+          data-ka="თბილისი, მერაბ ალექსიძის ქ. №12">
+          Tbilisi, Merab Aleksidze St. №12
+        </span><br>
+
+        <span data-en="Email" data-ka="ელ. ფოსტა">Email</span>:
+        <span data-en="trade@geoeurasia.com" data-ka="trade@geoeurasia.com">
+          trade@geoeurasia.com
+        </span><br>
+
+      </div>
+    </div>
+
+
+
+  <!-- ✅ jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- ✅ JavaScript -->
+  <script src="assets/script.js"></script>
+</body>
+</html>
